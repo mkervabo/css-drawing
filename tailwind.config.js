@@ -5,7 +5,10 @@ export default {
     extend: {
       animation: {
         'spin-slow': 'spin 10s linear infinite',
-       }
+      },
+      fontFamily: {
+        title: ["Rubik Puddles", 'system-ui']
+      }
     },
   },
   plugins: [],
