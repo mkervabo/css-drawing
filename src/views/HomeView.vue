@@ -5,9 +5,9 @@ import LinkBlock from '@/components/LinkBlock.vue'
 
 <template>
   <main>
-    <div class="h-screen w-screen bg-orange-200 font-black">
+    <div class="h-screen w-screen bg-orange-200 text-stone-900">
       <h1 class="text-center py-10 font-title text-4xl font-bold text-indigo-400" >Drawing Studio</h1>
-      <p class="font-mono text-neutal-900 text-center py-10">This little studio is a place where I can make quick drawings. I hope you enjoy the visit.</p>
+      <p class="font-mono text-center py-10">This little studio is a place where I can make quick drawings. I hope you enjoy the visit.</p>
       <nav class="px-10 max-w-[1000px] m-auto flex justify-center intems-center gap-10 flex-wrap">
         <RouterLink to="/windmill">
           <LinkBlock class="bg-blue-300 hover:bg-blue-400">
