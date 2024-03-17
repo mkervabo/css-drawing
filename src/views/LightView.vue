@@ -1,12 +1,13 @@
 <script setup>
 import { ref } from 'vue'
-
+import HomeButton from '@/components/HomeButton.vue';
 
 const lightOn = ref(true)
 </script>
 
 <template>
     <div class="w-screen h-screen flex justify-center items-center" :class="{'bg-purple-200': lightOn, 'bg-indigo-800': !lightOn}">
+        <HomeButton />
         <div class="relative h-96 w-96 overflow-hidden" :class="{'bg-purple-100': lightOn, 'bg-indigo-400': !lightOn}">
             <div class="absolute bottom-0 rounded-tl-3xl right-0 h-24 w-72" :class="{'bg-red-500': lightOn, 'bg-fuchsia-900': !lightOn}">
                 <div class="h-16 w-16 absolute rounded-full left-0 -bottom-5" :class="{'bg-red-300': lightOn, 'bg-fuchsia-800': !lightOn}"></div>

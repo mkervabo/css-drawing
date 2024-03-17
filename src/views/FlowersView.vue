@@ -1,8 +1,10 @@
 <script setup>
+    import HomeButton from '@/components/HomeButton.vue';
 </script>
 
 <template>
     <div class="w-screen h-screen bg-pink-200 flex justify-center items-center">
+        <HomeButton />
         <div class="relative bg-pink-100 h-96 w-96 overflow-hidden rounded-2xl ">
             <div class="absolute left-28 h-96 w-96">
                 <div class="rounded-full h-20 w-20 bg-green-400 absolute left-[5rem] top-52"></div>
