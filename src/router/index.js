@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import MillView from '../views/MillView.vue'
 import FlowersView from '../views/FlowersView.vue'
 import LightView from '../views/LightView.vue'
+import CapView from '../views/CapView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/Light',
       name: 'light',
       component: LightView
+    },
+    {
+      path: '/Cap',
+      name: 'cap',
+      component: CapView
     }
   ]
 })
